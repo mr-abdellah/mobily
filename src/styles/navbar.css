@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 110px;
+  height: 44.17px;
+
+  font-family: 'Myanmar Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #000000;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.nav-links {
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.nav-links a {
+  font-family: 'Avenir LT Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  letter-spacing: 0.115em;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  color: rgba(0, 0, 0, 1);
+}
