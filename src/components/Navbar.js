@@ -5,11 +5,11 @@ import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => (
   <nav className="navbar">
-    <Link id="logo" to="/">
+    <Link id="logo" to="/home">
       Mobily
     </Link>
     <ul className="nav-links">
-      <NavLink to="/">Homepage</NavLink>
+      <NavLink to="/home">Homepage</NavLink>
       <NavLink to="/categories">Categories</NavLink>
       <NavLink to="/services">Services</NavLink>
       <NavLink to="/about">About</NavLink>
