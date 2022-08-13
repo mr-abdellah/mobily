@@ -9,6 +9,7 @@ const Navbar = () => (
       Mobily
     </Link>
     <ul className="nav-links">
+      <NavLink to="/">Homepage</NavLink>
       <NavLink to="/categories">Categories</NavLink>
       <NavLink to="/services">Services</NavLink>
       <NavLink to="/about">About</NavLink>
